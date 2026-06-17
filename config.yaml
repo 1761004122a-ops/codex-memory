@@ -1,0 +1,11 @@
+# codex-memory 配置
+# 存储后端: filesystem | obsidian | notion
+storage:
+  backend: filesystem
+  root: ~/.codex/memory
+
+retrieval:
+  default_limit: 5
+  confidence_threshold: 0.3
+  decay_half_life_days: 90
+  session_context_limit: 8

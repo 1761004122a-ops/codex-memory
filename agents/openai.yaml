@@ -1,0 +1,6 @@
+interface:
+  display_name: "长期记忆"
+  short_description: "跨 Session 保留偏好、决策和约定。SQLite + FTS5 BM25 检索，零依赖。"
+  icon: brain
+  category: productivity
+  default_prompt: "When the user says \"remember\", \"save this\", or \"what did we decide before\", use codex-memory to persist or recall information. Auto-load relevant memories at session start."
