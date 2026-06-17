@@ -104,6 +104,22 @@ Codex: [generates episodic entry + handoff markdown]
 
 ---
 
+
+## When Does It Activate?
+
+The skill triggers automatically in these 6 situations:
+
+| Trigger | Example |
+|---|---|
+| **You say "记住"** | "记住我喜欢把输出放在 outputs/" |
+| **You ask about the past** | "上次我们怎么处理的？" |
+| **After a decision is made** | Codex asks: "需要记住这个选型吗？" |
+| **Session start** | Codex auto-loads project-relevant memories |
+| **Session end** | Codex asks: "要总结本次 session 吗？" |
+| **You say "忘掉"** | "忘掉之前那条" or "这条过时了" |
+
+In short: **you mention memory → it activates**. **Important decisions → I ask you**.
+
 ## Command Reference
 
 ```bash
